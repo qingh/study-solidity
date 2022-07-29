@@ -6,29 +6,29 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "myString",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "int256",
+						"name": "n",
+						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "f1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "i",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_hi",
-						"type": "string"
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
-				"name": "setHello",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"hello.sol": "Hello"
+			"storage.sol": "StorageTest"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"hello.sol": {
-			"keccak256": "0x25891d677c2134a2d042e2185198cecc67f1a34eed177ec08ec3ae9319ebacf0",
+		"storage.sol": {
+			"keccak256": "0x6becc030d33de332d5dd1a69c51101d3f361c136d5858c7f9626a90934cdb1e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://40f240b8dda1aa4677ec191eee2e894eaa5585bbfe9e5008c7c19abd7f85936c",
-				"dweb:/ipfs/QmSvZJw2tvaLJg24ZEWN9yCymSA238h6P6JnYewGFRPvWL"
+				"bzz-raw://f2b190fa655cbae63a2344647c2f8144536120faf0e43ad5aa5a6a9a57100433",
+				"dweb:/ipfs/QmYk5PcdNVYxbdKpwYYwtzj7bANoGDXSkMxdjv2cpyayVF"
 			]
 		}
 	},
