@@ -17,6 +17,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fn",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"extends.sol": {
-			"keccak256": "0x7ba26fac02a679e966952e6843527df59887036e2374f98dc75f93a5fbde0d02",
+			"keccak256": "0x419e5ccff06b50179c04b0da46e0776deeaaaa40030387fa5d98130c56647d96",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ddb8fb9e02ea92019f86b9a90da4f9840d781e850656753d40accdf6eaae9260",
-				"dweb:/ipfs/QmYHq4UxFQMo9kghCCtfPE2U7CJVf7BYbMJB1KpJRZAcCM"
+				"bzz-raw://617f659da5e2f8b9bc76f9f52814d4b6b0a8b8353109aa17050c869eb96a2f8f",
+				"dweb:/ipfs/QmPLk6Qq3eh2stx3ejBxZVerkqGXbpLSWPdh2x9qHYC36R"
 			]
 		}
 	},

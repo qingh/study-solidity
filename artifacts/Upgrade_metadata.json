@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"delegatecall.sol": "Upgrade"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"delegatecall.sol": {
+			"keccak256": "0xef9474c9ef79a3c7f0f587df361dbb8877fee89c20ef8b2e79481cf6b351e4a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://584b98c21889bf843ec5ad409a6f3031c4dd55c67e607f60ccf8590d1b6d1b6d",
+				"dweb:/ipfs/Qmdw4ifP9BMaE3NSwXFtAUQDoYU8s7SLrYc6N2jKhgXBSM"
+			]
+		}
+	},
+	"version": 1
+}

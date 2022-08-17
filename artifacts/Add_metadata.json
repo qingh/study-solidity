@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"add.sol": {
-			"keccak256": "0x7eec3d00a545a65ec18bcce1a57ef1d3bf8e535abc2c650b233e40aa7f52164c",
-			"license": "GPL-3.0",
+			"keccak256": "0xcd14e0e1293a1b5bcc7fb11a3430342726a3195911b82b47b6711ae8c63c3079",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://4d14a3bbdfe0d4716dc50feced708c82040dc1822358f87abdc6b08e03010d86",
-				"dweb:/ipfs/QmW3ik3vVkX2BkFyeeVcHPjSJZFJ86z7DPdeei51v9P2a1"
+				"bzz-raw://62d7c0f5f48e512ca91b91b7a48de853915c6a4474c44901977283a1ecb1e2f9",
+				"dweb:/ipfs/QmRsUsqwzL4WTL5mYJ49eurpzwt2eDWQiXjARC8KsXAAb8"
 			]
 		}
 	},

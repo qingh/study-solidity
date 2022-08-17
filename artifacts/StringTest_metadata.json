@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Payable01",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "a",
+						"type": "address"
+					}
+				],
+				"name": "f1",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"string.sol": "StringTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"string.sol": {
+			"keccak256": "0x914421ecc6789cd321f947fed0737e170a057c5485ffefa3fe1e63d0c0181cd2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f1747d0706c4c212f1f7390c42d0ecece905ebaaf33e88f7f6b1a4fa836094b",
+				"dweb:/ipfs/QmUrLw5CvuS7FjYAyyiePMG82VxRtF88BtwCzbmRxfujdU"
+			]
+		}
+	},
+	"version": 1
+}

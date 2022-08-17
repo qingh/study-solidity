@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract UserReg",
+						"name": "u",
+						"type": "address"
+					}
+				],
+				"name": "getUserList",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract UserReg",
+						"name": "u",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_password",
+						"type": "string"
+					}
+				],
+				"name": "reg",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"login.sol": "Login"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"login.sol": {
+			"keccak256": "0x369614bfbf6abc59df165438bf36290a3bcdfafb2231c306aa30319d2844868a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://df5a273b852bd1ed1c7fa54ed0fee80f7f3c14002c67c437669c8fdda6991c90",
+				"dweb:/ipfs/Qmd5DMZMWZdwgkMoizjzya1kR5PtXZ8VrmYzKJD2TKC1Mj"
+			]
+		}
+	},
+	"version": 1
+}

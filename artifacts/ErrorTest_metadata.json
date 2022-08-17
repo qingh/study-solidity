@@ -13,28 +13,22 @@
 						"type": "uint256"
 					}
 				],
-				"name": "f1",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "addNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "num",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "n",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "f2",
-				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -66,11 +60,11 @@
 	},
 	"sources": {
 		"error.sol": {
-			"keccak256": "0xd1838e103a17c8e6b6efdde019558af38ed21176a4796d1d64357799bf12b661",
+			"keccak256": "0x70b7d92b248705daa92fedf30e403853b2b4423fbef56c0306cd5da4124960a3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://67acdab1ba7fe9fc6eb763e234c8f7f0ccfbcf3881e33c355a7a6ed985bb21e3",
-				"dweb:/ipfs/QmQdqk5uazvT9nQrmDLXD1bLfkj1NsVtpVM4in6x7Sifp9"
+				"bzz-raw://de16539430bd0b7692577f813c6bc01cc6e3a8c365f33effb1d4a6b922bf927a",
+				"dweb:/ipfs/QmSzZUvkCrqRs65dxsVm9NRXYrBufg2xCDjYqMGJUDnvMf"
 			]
 		}
 	},

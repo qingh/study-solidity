@@ -1,28 +1,43 @@
-REMIX DEFAULT WORKSPACE
+1、为什么字符串的参数需要使用memory声明 ？
+```
+function f1(string memory n) public {}
+function f1(int n) public {}
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+```
 
-This workspace contains 3 directories:
+2、public声明的状态变量，被继承的子合约使用时，可以直接使用，被外部合约使用时，需要以方法的形式使用
+    状态变量的默认修饰符是 internal
+```
+contract A {
+    int public d1 = 10;
+    int internal d2 = 20;
+    int private d3 = 30;
+}
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+contract B is A {
+    function f1() public view returns (int) {
+        return d1;
+    }
+}
 
-SCRIPTS
+contract C {
+    A a = new A();
+    function f1() public view returns (int) { 
+        return a.d1();
+    }
+}
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+```
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+3、关键字`virtual`表示该函数可以在派生类中重写，被定义为virtual后，
+即使没有修改状态变量，会消耗gas
+```
+contract Person {
+    function f1() public pure virtual returns (uint) {
+        uint age = 30;
+        return age;
+    }
+}
+```
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+4、

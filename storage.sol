@@ -4,8 +4,13 @@ pragma solidity ^0.8.7;
 contract StorageTest {
     int public  i;
 
-    function f1(int n) public {
-        // i = n;
+    constructor() {
+        f1();
+    }
+
+    function f1() public pure returns (int) {
+        int n = 234;
+        return n;
     }
 }
 /* 

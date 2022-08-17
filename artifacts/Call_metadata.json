@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable.sol": "Call"
+			"login.sol": "Call"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable.sol": {
-			"keccak256": "0xaa77670bf751c8598c9887c7a71851513f97a69e53e348957b03e2ece296ed94",
+		"login.sol": {
+			"keccak256": "0x59fd99bd44df2af54cf85fc1201d7c5ffb5c76bd95c5ed98f20a70804351b541",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0c8d7178197b4190bcff3c4847cb7f86a3798618a35a953601aa3cdffba6e2de",
-				"dweb:/ipfs/QmSTofH4FNNJFA4JVs3QLFCRLYjEvW8TMJsjA65pruxr3k"
+				"bzz-raw://dd011da0ff3fe79390b5e3f9cfc74c52d3ac55591dba1a24af9964bfbb59a1f8",
+				"dweb:/ipfs/QmdWmv5mv43SnPX5mDwmYbcPjC39ynTv7ZCxYSYtcM1diT"
 			]
 		}
 	},

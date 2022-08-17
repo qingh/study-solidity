@@ -6,16 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "f1",
+				"outputs": [
 					{
 						"internalType": "int256",
-						"name": "n",
+						"name": "",
 						"type": "int256"
 					}
 				],
-				"name": "f1",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -60,11 +65,11 @@
 	},
 	"sources": {
 		"storage.sol": {
-			"keccak256": "0x6becc030d33de332d5dd1a69c51101d3f361c136d5858c7f9626a90934cdb1e7",
+			"keccak256": "0xbe85ef09c6257b0eaa120968faf7489c91c5bd5d873c2ab703cafc950cbd55af",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f2b190fa655cbae63a2344647c2f8144536120faf0e43ad5aa5a6a9a57100433",
-				"dweb:/ipfs/QmYk5PcdNVYxbdKpwYYwtzj7bANoGDXSkMxdjv2cpyayVF"
+				"bzz-raw://56cce392051920f2b0b8dfb284ec46a23f1615a1eb1c448f84bb3a3a2784b446",
+				"dweb:/ipfs/QmZ96ozZzJuus2pEDuaLmzzkwVuWGyLr8qKGVXT7cXVf5H"
 			]
 		}
 	},
